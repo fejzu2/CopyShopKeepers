@@ -1,0 +1,61 @@
+{
+  "prefix": [
+    "&8[&#17DD62C&#28DD5Bo&#38DC54p&#49DC4Dy&#59DB46S&#6ADB3Fh&#7ADA38o&#8BDA31p&#9CDA2AK&#ACD923e&#BDD91Ce&#CDD815p&#DED80Ee&#EED707r&#FFD700s&8]"
+  ],
+  "no-trade-window": [
+    " ",
+    "%prefix% &fYou don't have an open trade window &8(&fvillager &8/ &fShopKeepers&8).",
+    " "
+  ],
+  "no-trades": [
+    " ",
+    "%prefix% &fThis merchant has &cno trades&f.",
+    " "
+  ],
+  "copied": [
+    " ",
+    "%prefix% &fCopied &e%count% &ftrade(s) to clipboard&8.",
+    "&8- &fFormat&8: &b%format%"
+  ],
+  "copied-shoptype-line": [
+    "&8- &fShop type&8: &b%shoptype%"
+  ],
+  "copied-paste-hint": [
+    "&8- &fPaste this as a &afull replacement&f of the &f%datakey%&8: &fline for the chosen shopkeeper &8(&findentation already matches, don't touch it&8)"
+  ],
+  "saved-file": [
+    "&8- &fSaved to file &8(&aclick to open&8)&8: &b&n%file%"
+  ],
+  "save-failed": [
+    "&8- &cFailed to save file&8: &f%error%"
+  ],
+  "spacer": [
+    " "
+  ],
+  "format-changed": [
+    " ",
+    "%prefix% &fDefault format &8(&fCtrl+C &fand bare &f/villagerexport&f) set to&8: &e%format%",
+    " "
+  ],
+  "shoptype-changed": [
+    " ",
+    "%prefix% &fDefault shop type set to&8: &e%shoptype% &8(&f%description%&8)",
+    " "
+  ],
+  "command.help": [
+    " ",
+    "%prefix% &fExports the open merchant's trades to clipboard&8/&ffile",
+    " ",
+    "&8- &f/villagerexport &8- &fcopies trades using the default format",
+    "&8- &f/villagerexport save &8- &fsame, &8+ &fsaves the file to disk",
+    "&8- &f/villagerexport readable &8[&fsave&8] &8- &freadable trade list",
+    "&8- &f/villagerexport json &8[&fsave&8] &8- &ffull JSON dump",
+    "&8- &f/villagerexport shopkeepers &8[&fadmin&8/&ftrading&8] &8[&fsave&8] &8- &fYAML fragment, ready to paste over recipes&8:&8/&foffers&8:",
+    "&8- &f/villagerexport format &8<&freadable&8/&fshopkeepers&8/&fjson&8> &8- &fchanges the default format",
+    "&8- &f/villagerexport shoptype &8<&fadmin&8/&ftrading&8> &8- &fchanges the default shop type",
+    "&8- &f/villagerexport help &8- &fthis command list",
+    " ",
+    "&8[&e!&8] &aCtrl &8+ &aC &fwhile a trade window is open &8- &fquick export",
+    " "
+  ]
+}
